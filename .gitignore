@@ -1,0 +1,35 @@
+# showoff stuff
+stats/
+pdf/
+static/
+surveys.js
+user.js
+_notes
+__Nearby_Events.html
+
+# ignore autoshared files unless specifically added
+*/_files/share/*
+
+# ignore the _preshow dir except for the README
+*/_preshow/*
+!*/_preshow/README
+
+# partner cobranding
+*/cobrand.*
+
+# tidiness
+*.swp
+.DS_Store
+
+# ruby stuff
+.ruby-version
+.rake_t_cache
+Gemfile.lock
+
+# temp dir to put temp crap that you want git to ignore
+/stash/
+
+.vagrant/
+
+# webex stuff
+*.csv
